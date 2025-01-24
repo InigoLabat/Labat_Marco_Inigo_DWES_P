@@ -1,0 +1,21 @@
+/*
+    Parámetros para enviar en el cuerpo de la solicitud
+        - id: hace referencia al ID del termostato cuya temperatura se quiere cambiar
+        - temperatura_objetivo: temperatura que deseamos que alcance el termostato
+*/
+
+
+{
+    "id": 1,
+    "temperatura_objetivo": 17
+}
+
+{
+    "id": 2,
+    "temperatura_objetivo": 20
+}
+
+{
+    "id": 4,
+    "temperatura_objetivo": 20
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1, 
+        "nombre": "Termostato Hall",
+        "temperatura_actual": 19,
+        "temperatura_objetivo": 20,
+        "modo": "calor"
+    },
+    {
+        "id": 2,
+        "nombre": "Termostato I+D",
+        "temperatura_actual": 19,
+        "temperatura_objetivo": 18,
+        "modo": "frio"
+    },
+    {
+        "id": 3,
+        "nombre": "Termostato Cafeteria",
+        "temperatura_actual": 18,
+        "temperatura_objetivo": 18,
+        "modo": "ventilar"
+    },
+    {
+        "id": 4,
+        "nombre": "Termostato Administracion",
+        "temperatura_actual": 20,
+        "temperatura_objetivo": 22,
+        "modo": "calor"
+    }
+]

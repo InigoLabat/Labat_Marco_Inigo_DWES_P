@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "382b8ace-7c51-4f33-afd0-125a4ad5c3a0",
+		"name": "Examen_parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40591963"
+	},
+	"item": [
+		{
+			"name": "Consulta get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/examen/v1/public/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"examen",
+						"v1",
+						"public",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta PUT 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"temperatura_objetivo\": 17\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/examen/v1/public/updatetemperatura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"examen",
+						"v1",
+						"public",
+						"updatetemperatura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta PUT 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"temperatura_objetivo\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/examen/v1/public/updatetemperatura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"examen",
+						"v1",
+						"public",
+						"updatetemperatura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta PUT 3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"temperatura_objetivo\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/examen/v1/public/updatetemperatura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"examen",
+						"v1",
+						"public",
+						"updatetemperatura"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consulta PUT 4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"temperatura_objetivo\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/examen/v1/public/updatetemperatura",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"examen",
+						"v1",
+						"public",
+						"updatetemperatura"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
